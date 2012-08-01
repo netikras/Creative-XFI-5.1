@@ -1,0 +1,1 @@
+KERNEL=="hwC1D0", SUBSYSTEM=="sound", ACTION=="add", ATTRS{idVendor}=="041e", ATTRS{idProduct}=="30df", RUN+="/home/my_username/skriptai/creative/activate.sh"

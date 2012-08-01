@@ -1,0 +1,47 @@
+#
+# /usr/share/lirc/remotes/creative/lircd.conf.creative_RM-820
+# this config file was written by netikras using
+# lircd-0.9.0 on Fri Jan 27 19:40 2012
+#
+# contributed by: "netikras" <dariuxas@gmail.com>
+#
+#
+# brand:                       Creative
+# model no. of remote control: RM-820
+# devices being controlled by this remote: Creative SB X-FI Surround 5.1
+#
+# This remote comes with the SoundBlaster X-FI Surround 5.1 USB sound card.
+#
+
+begin remote
+
+	name	RM-820
+	bits	8
+	gap 300000
+
+	begin codes
+		knobMute	0x0d
+		knobvoldn	0x0f
+		knobvolup	0x10
+		volup		0x2b
+		voldn		0x2c
+		mute		0x2a
+		menu/back	0x2d
+		menu/back-long	0x1b
+		up		0x31
+		down		0x32
+		left		0x27
+		right		0x28
+		ok		0x30
+		repeat		0x3c
+		shuffle		0x3b
+		return		0x1a
+		bb		0x33
+		bb-long		0x35
+		play-pause	0x2f
+		ff		0x34
+		ff-long		0x36
+		power		0x29
+	end codes
+
+end remote

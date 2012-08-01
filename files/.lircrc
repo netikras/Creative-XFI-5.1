@@ -1,0 +1,145 @@
+# $HOME/.lircrc
+begin
+ prog = irexec
+ remote = RM-820
+ button = voldn
+ repeat = 1
+ config = bash /home/netikras/skriptai/creative/remote/volume-switch decrease 
+end
+
+begin
+ prog = irexec
+ remote = RM-820
+ button = knobvoldn
+ repeat = 1
+ config = bash /home/netikras/skriptai/creative/remote/volume-switch decrease 
+end
+
+begin
+ prog = irexec
+ remote = RM-820
+ button = mute
+ repeat = 1
+ config = bash /home/netikras/skriptai/creative/remote/volume-switch mute 
+end
+
+begin
+ prog = irexec
+ remote = RM-820
+ button = knobMute
+ repeat = 1
+ config = bash /home/netikras/skriptai/creative/remote/volume-switch mute 
+end
+
+begin
+ prog = irexec
+ remote = RM-820
+ button = volup
+ repeat = 1
+ config = bash /home/netikras/skriptai/creative/remote/volume-switch increase 
+end
+
+begin
+ prog = irexec
+ remote = RM-820
+ button = knobvolup
+ repeat = 1
+ config = bash /home/netikras/skriptai/creative/remote/volume-switch increase 
+end
+
+begin
+ prog = irexec
+ remote = RM-820
+ button = menu-back
+ repeat = 1
+ config = banshee --show &
+end
+
+begin
+ prog = irexec
+ remote = RM-820
+ button = menu-back-long
+ repeat = 1
+ config = banshee --hide &
+end
+
+
+begin
+ prog = irexec
+ remote = RM-820
+ button = play-pause
+ repeat = 1
+ config = banshee --toggle-playing 
+end
+
+begin
+ prog = irexec
+ remote = RM-820
+ button = return
+ repeat = 1
+ config = bash /home/netikras/skriptai/creative/remote/audio
+end
+
+begin
+ prog = irexec
+ remote = RM-820
+ button = power
+ repeat = 1
+ config = pulseaudio --kill && sleep 1 && pulseaudio --start
+end
+
+begin
+ prog = irexec
+ remote = RM-820
+ button = ff
+ repeat = 1
+ config = banshee --next
+end
+
+begin
+ prog = irexec
+ remote = RM-820
+ button = bb
+ repeat = 1
+ config = banshee --restart-or-previous
+end
+
+begin
+ prog = irxevent
+ remote = RM-820
+ button = up
+ repeat = 1
+ config = Key Up CurrentWindow
+end
+
+begin
+ prog = irxevent
+ remote = RM-820
+ button = down
+ repeat = 1
+ config = Key Down CurrentWindow
+end
+
+begin
+ prog = irxevent
+ remote = RM-820
+ button = left
+ repeat = 1
+ config = Key Left CurrentWindow
+end
+
+begin
+ prog = irxevent
+ remote = RM-820
+ button = right
+ repeat = 1
+ config = Key Right CurrentWindow
+end
+
+begin
+ prog = irxevent
+ remote = RM-820
+ button = ok
+ repeat = 1
+ config = Key Return CurrentWindow
+end
